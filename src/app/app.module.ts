@@ -10,10 +10,10 @@ import { MatCardModule } from '@angular/material/card';
 import { MatButtonModule } from '@angular/material/button';
 
 import { AppComponent } from './app.component';
-import { HelloComponent } from './hello.component';
 
 import 'hammerjs';
 import { MenuComponent } from './menu/menu.component';
+import { DishdetailComponent } from './dishdetail/dishdetail.component';
 
 @NgModule({
   imports:      
@@ -27,7 +27,7 @@ import { MenuComponent } from './menu/menu.component';
     MatCardModule,
     MatButtonModule
   ],
-  declarations: [ AppComponent, HelloComponent, MenuComponent ],
+  declarations: [ AppComponent, MenuComponent, DishdetailComponent ],
   bootstrap:    [ AppComponent ]
 })
 export class AppModule { }
