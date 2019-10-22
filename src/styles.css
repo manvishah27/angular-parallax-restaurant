@@ -13,3 +13,16 @@ body {
   margin: 20px;
   display: flex;
 }
+
+.background-primary {
+	 background-color: #512da8;
+}
+ .background-accent {
+	 background-color: #ffc107;
+}
+ .text-floral-white {
+	 color: floralwhite;
+}
+ .flex-spacer {
+	 flex: 1 1 auto;
+}
